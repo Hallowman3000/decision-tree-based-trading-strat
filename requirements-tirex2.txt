@@ -1,0 +1,9 @@
+-r requirements.txt
+tirex-2==0.4.0
+# Install torch==2.8.0+cpu from the official PyTorch CPU index first;
+# see TIREX2.md. CUDA users should use the appropriate official torch build.
+torch==2.8.0
+huggingface-hub==2.3.0
+safetensors==0.8.0
+flashrnn==1.0.8
+mlstm_kernels==2.0.6
